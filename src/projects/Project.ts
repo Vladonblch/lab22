@@ -11,6 +11,7 @@ export class Project {
     return this.id === undefined;
   }
 
+  
   constructor(initializer?: any) {
     if (!initializer) return;
     if (initializer.id) this.id = initializer.id;
